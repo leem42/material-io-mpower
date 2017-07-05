@@ -1,20 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>My Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://code.jquery.com/mobile/[version]/jquery.mobile-[version].min.css">
-    <script src="https://code.jquery.com/jquery-[version].min.js"></script>
-    <script src="https://code.jquery.com/mobile/[version]/jquery.mobile-[version].min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.4.5.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+
+
 </head>
 <body>
-    <div data-role="page">
- 
-        <div data-role="header">
-            <h1>My Title</h1>
-        </div><!-- /header -->
- 
-        <div role="main" class="ui-content">
+    <div data-role="page" class="container">
+        <div class="row">
+            <div data-role="header" class="jumbotron col-md-12">
+                <h1>mPower</h1>
+            </div><!-- /header -->
+        </div>
+
+        <div class="row">
+
+        <div role="main" class="ui-content jumbotron col-md-12">
             <p>Hello world</p>
             <ul data-role="listview" data-inset="true" data-filter="true">
                 <li><a href="#">Acura</a></li>
@@ -24,7 +30,22 @@
                 <li><a href="#">Ferrari</a></li>
             </ul>
         </div><!-- /content -->
- 
+        </div>
+        
+        <div class="row">
+        <form class="jumbotron col-md-12">
+            <ul data-role="listview" data-inset="true">
+               <li class="ui-field-contain">
+                <label for="select-choice-1" class="select col-md-4">Choose shipping method:</label>
+                <select name="select-choice-1" id="select-choice-1" class="col-md-8">
+                    <option value="standard">Standard: 7 day</option>
+                    <option value="rush">Rush: 3 days</option>
+                    <option value="express">Express: next day</option>
+                    <option value="overnight">Overnight</option>
+                </select>
+               </li>
+            </ul>
+        </form>
         <div data-role="footer">
             <h4>My Footers</h4>
         </div><!-- /footer -->
