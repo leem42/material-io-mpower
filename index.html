@@ -7,48 +7,73 @@
     <script src="https://code.jquery.com/jquery-1.4.5.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css"/>
-
+    <link rel="stylesheet" href="./css/decorator.css"/>
 
 </head>
 <body>
     <div data-role="page" class="container">
+
         <div class="row">
             <div data-role="header" class="jumbotron col-md-12">
                 <h1>mPower</h1>
             </div><!-- /header -->
-        </div>
 
+            <!--<svg height=150 width=100%>
+                
+                <div class="col-md-8">
+                <circle cy="35" r="15"></circle>
+                </div>
+
+                <div class="col-md-9">
+                <circle cy="35" r="15"></circle>
+                </div>
+            
+                <div class="col-md-10">
+                <circle cy="35" r="15"></circle>
+                </div>
+                
+                <div class="col-md-11">
+                <circle cy="35" r="15"></circle>
+                </div>
+                
+                <div class="col-md-12">
+                <circle cy="35" r="15"></circle>
+                </div>
+           
+            </svg>-->
+        </div>
+    </div>
+
+    <div data-role="page" class="container text-center">
+    
         <div class="row">
 
-        <div role="main" class="ui-content jumbotron col-md-12">
-            <p>Hello world</p>
-            <ul data-role="listview" data-inset="true" data-filter="true">
-                <li><a href="#">Acura</a></li>
-                <li><a href="#">Audi</a></li>
-                <li><a href="#">BMW</a></li>
-                <li><a href="#">Cadillac</a></li>
-                <li><a href="#">Ferrari</a></li>
-            </ul>
-        </div><!-- /content -->
+            <div role="main" class="ui-content jumbotron col-md-12">
+            
+                <div class="col-md-12">
+                I'm interest in joining the mPower study because I
+                </div>
+
+                <div class="col-md-12">
+                    <form>
+                        <ul data-role="listview" data-inset="true">
+                           <li class="ui-field-contain">
+                            <select name="select-choice-1" id="select-choice-1" hint="select an option">
+                                <option value="" disabled selected hidden> select an option </option>
+                                <option value="standard"> I want to help researchers understand parkinsons</option>
+                            </select>
+                           </li>
+                        </ul>
+                </form>
+                </div>
+    
+                <a href="#" class="ui-btn ui-btn-inline button"> Next </a>
+             
+            </div>
+
         </div>
         
-        <div class="row">
-        <form class="jumbotron col-md-12">
-            <ul data-role="listview" data-inset="true">
-               <li class="ui-field-contain">
-                <label for="select-choice-1" class="select col-md-4">Choose shipping method:</label>
-                <select name="select-choice-1" id="select-choice-1" class="col-md-8">
-                    <option value="standard">Standard: 7 day</option>
-                    <option value="rush">Rush: 3 days</option>
-                    <option value="express">Express: next day</option>
-                    <option value="overnight">Overnight</option>
-                </select>
-               </li>
-            </ul>
-        </form>
-        <div data-role="footer">
-            <h4>My Footers</h4>
-        </div><!-- /footer -->
+    
  
     </div><!-- /page -->
 </body>
