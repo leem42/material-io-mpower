@@ -71,6 +71,16 @@ option {
     font-size: 30px;
     font-family: "Open Sans",open-sans,sans-serif;
 }
+
+select {
+    /*margin: 50px;*/
+    margin-top: 15;
+    margin-bottom: 15px;
+
+    font-size: 25px;
+
+    /*padding: 50px;*/
+}
 /*
 select {
     width: 55%;

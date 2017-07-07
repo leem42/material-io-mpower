@@ -32,19 +32,52 @@
         
             <div class="row">
 
-                <div class="ui-content col-md-12">
+                <div class="ui-content col-md-12" align="left">
                 
                     <div class="col-md-8 col-md-offset-2">
-                    <p> I'm interest in joining the mPower study because I </p>
+                    <p> I'm interested in joining the mPower study because I </p>
                     </div>
 
-                    <div class="col-md-8 col-md-offset-2">
+                    <!--<div class="col-md-8 col-md-offset-2">
                         <form>
                             <ul data-role="listview" data-inset="true">
                                <li class="ui-field-contain">
-                                <select name="select-choice-1" id="select-choice-1" hint="select an option">
+                                <select name="select-choice-1" id="select-choice-1" >
                                     <option value="" disabled selected hidden> select an option </option>
                                     <option value="hasParkinsons"> have parkinsons disease </option>
+                                </select>
+                               </li>
+                            </ul>
+                        </form>
+                    </div>-->
+
+
+                     <div class="col-md-8 col-md-offset-4">
+                       <form>
+                            <div class="ui-field-contain">
+                                <select name="select-choice-1" id="select-choice-1">
+                                     <option value="" disabled selected hidden> select an option </option>
+                                    <option value="hasParkinsons"> have parkinsons disease </option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+
+
+                   
+
+                     <div class="col-md-8 col-md-offset-2" id="optionBoxText" style="display: none;">
+                        <p> and I would be willing to try </p>
+                      </div>
+
+                    <div class="col-md-8 col-md-offset-4" id="optionBoxTwo" style="display: none;">
+                        
+                        <form>
+                            <ul data-role="listview" data-inset="true">
+                               <li class="ui-field-contain">
+                                <select name="select-choice-2" id="select-choice-2" hint="select an option">
+                                    <option value="" disabled selected hidden> select an option </option>
+                                    <option value="willHelp">this study </option>
                                 </select>
                                </li>
                             </ul>
@@ -52,7 +85,7 @@
                     </div>
 
 
-                    <div class="col-md-4 col-md-offset-4" id="optionBoxTwo" style="display: none;">
+                    <!--<div class="col-md-4 col-md-offset-4" id="optionBoxTwo" style="display: none;">
                         <p> and I would be willing to try </p>
 
                         <form>
@@ -65,10 +98,11 @@
                                </li>
                             </ul>
                         </form>
-                    </div>
-        
+                    </div>-->
+                <div class="col-md-8 col-md-offset-2">
+
                     <a href="#" onclick="clicked()" class="col-md-2 col-md-offset-5 ui-btn ui-btn-inline button"> Next </a>
-                
+                </div>
                 </div>
 
             </div>
