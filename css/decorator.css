@@ -12,7 +12,6 @@ hr {
     box-shadow: 0px 0px 1px #888888;
     border-color: #dee4ed;
 
-
 }
 
 nav#app {
@@ -31,7 +30,7 @@ div.park {
 }
 
 p {
-    margin-left: 25%;
+    /*margin-left: 25%;*/
     display: inline;
     font-family: "Open Sans",open-sans,sans-serif;
     font-size: 30px;
@@ -47,7 +46,7 @@ p.regular {
     font-size: 20px;
 }
 p.tiny {
-    margin-left: 20%;
+    /*margin-left: 20%;*/
     color:gray;
     font-weight: bold;
     font-size: 20px;
@@ -66,13 +65,7 @@ text {
     font-size: 30px;
 }
 
-.left {
-    flex: -5 0 65%;
-}
-.right {
-    flex: 1;
-    align-items: left;
-}
+
 
 option {
     font-size: 30px;
@@ -102,6 +95,18 @@ select {
     text-decoration: none;
     /*display: inline-block;*/
     font-size: 16px;
+}
+
+input {
+    border-style: none none solid none;
+    border-color: lightgray;
+    background-color: inherit;
+}
+
+selectCustom {
+    border-style: none none solid none !important;
+    border-color: lightgray !important;
+    background-color: inherit !important;
 }
 
 .button:hover {
