@@ -7,6 +7,10 @@ html * {
      padding: 10px !important;
 }
 
+.check {
+    background-color:#31117D;    
+}
+
 .ui-input-text {
     background-color: inherit;
     border-style: none;

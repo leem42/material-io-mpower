@@ -14,7 +14,5 @@ document.getElementById("next").addEventListener('click', function(evt) {
     if(select.selectedIndex != -1 && selectTwo.selectedIndex != -1) {
         window.location.href+="html/elig.html";
     }
-  
-
 
 });

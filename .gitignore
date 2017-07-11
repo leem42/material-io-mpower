@@ -1,0 +1,13 @@
+node_modules/asap/
+node_modules/encoding/
+node_modules/fbjs/
+node_modules/iconv-lite/
+node_modules/is-stream/
+node_modules/isomorphic-fetch/
+node_modules/node-fetch/
+node_modules/object-assign/
+node_modules/promise/
+node_modules/react-tap-event-plugin/
+node_modules/setimmediate/
+node_modules/ua-parser-js/
+node_modules/whatwg-fetch/

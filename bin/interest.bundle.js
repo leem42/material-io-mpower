@@ -60,17 +60,18 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
-/* 0 */
+/* 0 */,
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _mdcSelectMin = __webpack_require__(1);
+var _mdcSelectMin = __webpack_require__(2);
 
 var select = new _mdcSelectMin.MDCSelect(document.querySelector('#optionBoxOne'));
 var selectTwo = new _mdcSelectMin.MDCSelect(document.querySelector('#optionBoxTwo'));
@@ -88,7 +89,7 @@ document.getElementById("next").addEventListener('click', function (evt) {
 });
 
 /***/ }),
-/* 1 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
