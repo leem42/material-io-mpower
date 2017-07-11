@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Page</title>
+    <title> mPower 2.0 </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
    
@@ -14,24 +14,42 @@
     <link rel="stylesheet" href="../css/decorator.css"/>
 
 
+
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 <body>
     
-    <div class="page-header">
+      <header class="mdc-toolbar mdc-toolbar--fixed" style="margin-bottom: 400px;">
+        <div class="mdc-toolbar__row">
+            <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+                <span class="mdc-toolbar__title" id="title"> mPower </span>
+                <span class="mdc-toolbar__title hidden-md hidden-lg" align="right" id="title"> Eligibility </span>
+            </section>
+            <img src="../images/ic_check_circle_white_48px.svg" class="check hidden-sm hidden-xs"></img>
+            <img src="../images/ic_check_circle_white_48px.svg" class="check hidden-sm hidden-xs"></img>
+            <img src="../images/ic_assignment_white_48px.svg" class="hidden-sm hidden-xs"></img>
+            <img src="../images/ic_lock_black_48px.svg" class="hidden-sm hidden-xs"></img>
+            <img src="../images/ic_lock_black_48px.svg" class="hidden-sm hidden-xs"></img>
+        </div>
 
-            <div data-role="page" class="row">
-                <div data-role="header" class="col-md-12">
-                    <h1 style="text-align: left; font-size: 30px;" > mPower</h1>
-                </div>
-            </div>
-    </div>
+        <div class="mdc-toolbar__row hidden-md hidden-lg">
+
+            <img src="../images/ic_check_circle_white_48px.svg" class="check"></img>
+            <img src="../images/ic_check_circle_white_48px.svg" class="check"></img>
+            <img src="../images/ic_assignment_white_48px.svg"></img>
+            <img src="../images/ic_lock_black_48px.svg"></img>
+            <img src="../images/ic_lock_black_48px.svg"></img>
+        </div>
+    </header>
     
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-top: 150px;">
 
             <div class="row">
 
                 <div class="col-md-6 hidden-sm-down">
-                    <img src="../images/check.png" alt="image of a check marked circle" class="img-responsive">
+                    <img src="../images/check.png" alt="image of a check marked circle" class="img-responsive"  style="width: 70%; height: 70%">
                     </image>
                 </div>
                 <div class="col-md-6">
@@ -50,10 +68,8 @@
                     </p>
                     <br>
                     <br>
-                    <button> I'D LIKE A WALKTHROUGH </button>
-                    <br>
-                    <br>
-                    <button> GO STRAIGHT TO QUIZ </button>
+
+                    <div class="button2"> I'D LIKE A WALKTHROUGH </div>                    
                 </div>
 
             </div>
@@ -64,6 +80,9 @@
 
      <script src="https://code.jquery.com/jquery-1.11.3.min.js"> </script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script>
+            window.mdc.autoInit();
+        </script>
 </body>
 </html>

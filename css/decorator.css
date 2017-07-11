@@ -11,6 +11,14 @@ html * {
     background-color:#31117D;    
 }
 
+.button2 {
+    min-width: 100px;
+    border: 1px solid black;
+    padding: 0 0 0 5px;
+    display: inline-block;
+    word-break: break-word;
+}
+
 .ui-input-text {
     background-color: inherit;
     border-style: none;
