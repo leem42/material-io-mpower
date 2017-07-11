@@ -73,27 +73,18 @@
 var _mdcSelectMin = __webpack_require__(1);
 
 var select = new _mdcSelectMin.MDCSelect(document.querySelector('#optionBoxOne'));
-
 var selectTwo = new _mdcSelectMin.MDCSelect(document.querySelector('#optionBoxTwo'));
 
-select.listen('MDCSelect:change', function () {
-
-   console.log('Selected "' + select.selectedOptions[0].textContent + '" at index ' + select.selectedIndex + ' ' + ('with value "' + select.value + '"'));
-});
-
 document.getElementById("next").addEventListener('click', function (evt) {
-   evt.preventDefault();
+    evt.preventDefault();
 
-   if (select.index != 0) {
-      console.log("clicked at 26");
-
-      $("#optionBoxText").show();
-      $("#optionBoxTwo").show();
-   }
-   // if($("#select-choice-1").val() == "hasParkinsons" && $("#select-choice-2").val() == "willHelp") {
-   //     window.location.href="html/elig.html";
-   // }
-
+    if (select.selectedIndex != -1) {
+        $("#optionBoxText").show();
+        $("#optionBoxTwo").show();
+    }
+    if (select.selectedIndex != -1 && selectTwo.selectedIndex != -1) {
+        window.location.href += "html/elig.html";
+    }
 });
 
 /***/ }),

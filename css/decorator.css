@@ -3,9 +3,17 @@
 html * {
      font-family: "Open Sans",open-sans,sans-serif;   
      color: #31117D;    
-     font-size: 24px !important;
+     font-size: 22px !important;
      padding: 10px !important;
 }
+
+.ui-input-text {
+    background-color: inherit;
+    border-style: none;
+}   
+
+
+
 
 .mdc-toolbar {
    --mdc-theme-primary: white;
