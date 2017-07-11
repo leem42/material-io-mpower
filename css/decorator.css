@@ -4,7 +4,31 @@ html * {
      font-family: "Open Sans",open-sans,sans-serif;   
      color: #31117D;    
      font-size: 24px !important;
-     padding: 10px;
+     padding: 10px !important;
+}
+
+.mdc-toolbar {
+   --mdc-theme-primary: white;
+}
+
+#title  {
+      color: #31117D ;
+}
+
+img {
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 0%;
+    margin-left: .5%;
+    /*width: 5%;*/
+}
+.mdc-button{
+    --mdc-theme-primary: #31117D ;
+}
+
+
+.mdc-toolbar__title {
+    color: white;
 }
 
 hr {
@@ -55,7 +79,6 @@ p.tiny {
 
 circle {
     fill: lightgray;
-    /*stroke: #322F41;*/
     stroke-width: 5;
     box-shadow: 10px 10px 10px #888888;
 
@@ -77,9 +100,7 @@ select {
     /*margin: 50px;*/
     margin-top: 15;
     margin-bottom: 15px;
-
     font-size: 25px;
-
     /*padding: 50px;*/
 }
 /*
@@ -101,11 +122,15 @@ select {
     background-color: #31117D; /* Green */
     border: thin;
     color: white;
-    padding: 15px 32px;
+    padding: 50px;
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
     font-size: 16px;
+}
+
+.mdc-button {
+    padding-bottom: 40px !important;
 }
 
 
