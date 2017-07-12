@@ -50,27 +50,34 @@ html * {
 
 
 .check {
-    background-color:#31117D;    
+    background-color: #E0F2E1;    
 }
+
+.board {
+    background-color: white;    
+    box-shadow: 2px 2px 1px grey;
+}
+
 
 .adjustedField {
     min-width: 300px;
 }
 
-.button2 {
+#walkthrough {
     min-width: 100px;
     border: 1px solid black;
     padding: 0 0 0 5px;
     display: inline-block;
+    color: white;
     word-break: break-word;
+    font-weight: thin;
+    background-color: #31117D;    
 }
 
 .ui-input-text {
     background-color: inherit;
     border-style: none;
 }   
-
-
 
 
 .mdc-toolbar {
@@ -86,6 +93,7 @@ img {
     background-color: gray;
     margin-right: 0%;
     margin-left: .5%;
+
     /*width: 5%;*/
 }
 .mdc-button{

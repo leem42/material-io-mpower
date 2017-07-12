@@ -4,10 +4,8 @@
 <head>
     <title> mPower 2.0 </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">-->
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <!--<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,8 +13,6 @@
     <link rel="stylesheet" href="../css/decorator.css" />
 
 
-    <!--</script>-->
-    <!---->
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -31,7 +27,7 @@
                 <span class="mdc-toolbar__title hidden-md hidden-lg" align="right" id="title"> Eligibility </span>
             </section>
             <img src="../images/ic_check_circle_white_48px.svg" class="check hidden-sm hidden-xs"></img>
-            <img src="../images/ic_assignment_white_48px.svg" class="hidden-sm hidden-xs"></img>
+            <img src="../images/ic_assignment_black_36px.svg" class="hidden-sm hidden-xs board"></img>
             <img src="../images/ic_lock_black_48px.svg" class="hidden-sm hidden-xs"></img>
             <img src="../images/ic_lock_black_48px.svg" class="hidden-sm hidden-xs"></img>
             <img src="../images/ic_lock_black_48px.svg" class="hidden-sm hidden-xs"></img>
@@ -40,7 +36,7 @@
         <div class="mdc-toolbar__row hidden-md hidden-lg">
 
             <img src="../images/ic_check_circle_white_48px.svg" class="check"></img>
-            <img src="../images/ic_assignment_white_48px.svg"></img>
+            <img src="../images/ic_assignment_black_36px.svg" class="board"></img>
             <img src="../images/ic_lock_black_48px.svg"></img>
             <img src="../images/ic_lock_black_48px.svg"></img>
             <img src="../images/ic_lock_black_48px.svg"></img>
@@ -65,14 +61,14 @@
 
                 <div class="col-xs-12 col-md-6 " style="padding: 0px;" id="ageField" align="right">
                     <div class="mdc-form-field mdc-form-field--align-end formField" id="ageBorder">
-                        <input style="min-width: 115px  !important;" class="glow" type="tel" pattern="[0-9]*" id="inputAge" placeholder="enter age" >
-                        <label style="min-width: 100px !important;"> I am </label>
+                        <input  class="glow" type="tel" pattern="[0-9]*" id="inputAge" placeholder="enter age" >
+                        <label > I am </label>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-md-6 formField partTwo" style="display: none; padding: 0px;"  id="homeField" align="left" >
                     <div class="mdc-form-field mdc-form-field--align-end " id="homeBorder" >
-                        <input  style="min-width: 150px  !important;" type="tel" pattern="[0-9]*" id="inputLive" autocomplete="text"  placeholder="zipcode or state">
+                        <input type="tel" pattern="[0-9]*" id="inputLive" autocomplete="text"  placeholder="zipcode or state">
                         <label style="min-width: 100px !important;"> I live in </label>
                     </div>
                 </div>
@@ -85,7 +81,7 @@
                     <div class="partThree col-xs-8 col-md-4 col-md-push-1">
                         <div class="mdc-select partThree head" id="optionBoxThree" role="listbox" style="min-width: 210px;">
                                 <span class="mdc-select__selected-text"> select an option </span>
-                                <div class="mdc-simple-menu mdc-select__menu">
+                                <div class="mdc-simple-menu mdc-simple-menu--open-from-bottom-right	 mdc-select__menu">
                                     <ul class="mdc-list mdc-simple-menu__items">
                                         <li class="mdc-list-item" role="option" tabindex="-1" aria-disabled="true">
                                             select an option
@@ -125,9 +121,6 @@
         </div>
 
     </div>
-
-    <!--</div>-->
-
 
 
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
