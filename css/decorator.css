@@ -63,6 +63,9 @@ html * {
     min-width: 300px;
 }
 
+.label {
+    font-weight: normal;
+}
 #walkthrough {
     min-width: 100px;
     border: 1px solid black;
@@ -93,8 +96,9 @@ img {
     background-color: gray;
     margin-right: 0%;
     margin-left: .5%;
-
-    /*width: 5%;*/
+    width: 55px;
+    height: 55px;
+   
 }
 .mdc-button{
     --mdc-theme-primary: #31117D ;
