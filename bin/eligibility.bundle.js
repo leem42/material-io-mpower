@@ -101,7 +101,7 @@ $(window).load(function () {
 document.getElementById("next").addEventListener('click', function (evt) {
 
     if ($("#inputAge").val() != "") {
-        // $("#age").removeClass("col-md-4 col-md-offset-4").addClass("col-sm-12 col-md-3 col-md-offset-3")
+        $("#inputAge").removeClass();
         $(".partTwo").show();
         $("#inputLive").focus();
     }
