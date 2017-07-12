@@ -86,6 +86,18 @@ var _mdcSelectMin = __webpack_require__(0);
 var select = new _mdcSelectMin.MDCSelect(document.querySelector('#optionBoxOne'));
 var selectTwo = new _mdcSelectMin.MDCSelect(document.querySelector('#optionBoxTwo'));
 
+select.listen('MDCSelect:change', function () {
+    if (select.selectedIndex != -1) {
+        $('#inputHasParkinsons').removeClass("glow");
+    }
+});
+
+selectTwo.listen('MDCSelect:change', function () {
+    if (selectTwo.selectedIndex != -1) {
+        $('#inputComfortable').removeClass("glow");
+    }
+});
+
 document.getElementById("next").addEventListener('click', function (evt) {
     evt.preventDefault();
 
