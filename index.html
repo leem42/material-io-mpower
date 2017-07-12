@@ -30,22 +30,22 @@
 
 
 
-    <header class="mdc-toolbar mdc-toolbar--fixed" style="margin-bottom: 150px;">
-        <div class="mdc-toolbar__row">
+    <header class="mdc-toolbar mdc-toolbar--fixed head" style="margin-bottom: 500px;">
+        <div class="mdc-toolbar__row top">
             <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
                 <span class="mdc-toolbar__title" id="title"> mPower </span>
                 <span class="mdc-toolbar__title hidden-md hidden-lg" align="right" id="title"> Eligibility </span>
             </section>
-            <img src="../images/ic_assignment_white_48px.svg" class="hidden-sm hidden-xs"></img>
+            <img src="../images/ic_check_circle_white_48px.svg" class="check hidden-sm hidden-xs"></img>
             <img src="./images/ic_lock_black_48px.svg" class="hidden-sm hidden-xs"></img>
             <img src="./images/ic_lock_black_48px.svg" class="hidden-sm hidden-xs"></img>
             <img src="./images/ic_lock_black_48px.svg" class="hidden-sm hidden-xs"></img>
             <img src="./images/ic_lock_black_48px.svg" class="hidden-sm hidden-xs"></img>
         </div>
 
-        <div class="mdc-toolbar__row hidden-md hidden-lg">
+        <div class="mdc-toolbar__row bottom hidden-md hidden-lg">
 
-            <img src="../images/ic_assignment_white_48px.svg"></img>
+            <img src="../images/ic_check_circle_white_48px.svg" class="check"></img>
             <img src="./images/ic_lock_black_48px.svg"></img>
             <img src="./images/ic_lock_black_48px.svg"></img>
             <img src="./images/ic_lock_black_48px.svg"></img>
@@ -56,7 +56,7 @@
     </header>
 
 
-    <div class="container-fluid" style="margin-top: 150px;">
+    <div class="container-fluid head" style="margin-top: 100px;">
 
         <div data-role="main" class="text-center">
 
@@ -71,13 +71,13 @@
                     <div class="col-md-12 col-md-offset-2">
 
                         <div class="mdc-select one" role="listbox" id="optionBoxOne" style="min-width: 210px;">
-                            <span class="mdc-select__selected-text"> select an option </span>
+                            <span class="mdc-select__selected-text hint"> select an option </span>
                             <div class="mdc-simple-menu mdc-select__menu">
                                 <ul class="mdc-list mdc-simple-menu__items">
-                                    <li class="mdc-list-item" role="option" id="vegetables" tabindex="-1" aria-disabled="true">
+                                    <li class="mdc-list-item listItem" role="option" id="vegetables" tabindex="-1" aria-disabled="true">
                                         select an option
                                     </li>
-                                    <li class="mdc-list-item" role="option" value="hasParkinsons" tabindex="0">
+                                    <li class="mdc-list-item listItem" role="option" value="hasParkinsons" tabindex="0">
                                         have parkinsons
                                     </li>
 
@@ -97,13 +97,13 @@
                     <div class="col-md-12 col-md-offset-2" id="optionBoxTwo" style="display: none;">
 
                         <div class="mdc-select two" role="listbox">
-                            <span class="mdc-select__selected-text"> select an option </span>
-                            <div class="mdc-simple-menu mdc-select__menu">
-                                <ul class="mdc-list mdc-simple-menu__items">
-                                    <li class="mdc-list-item" role="option" id="vegetables" tabindex="-1" aria-disabled="true">
+                            <span class="mdc-select__selected-text hint"> select an option </span>
+                            <div class="mdc-simple-menu mdc-select__menu listItem">
+                                <ul class="mdc-list mdc-simple-menu__items listItem">
+                                    <li class="mdc-list-item listItem" role="option" tabindex="-1" aria-disabled="true">
                                         select an option
                                     </li>
-                                    <li class="mdc-list-item" role="option" value="isWilling" tabindex="0">
+                                    <li class="mdc-list-item listItem" role="option" value="isWilling" tabindex="0">
                                         this study
                                     </li>
 

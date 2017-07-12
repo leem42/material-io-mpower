@@ -1,14 +1,45 @@
+.formField {
+    padding: 0px !important;
+}
 
+#divNext {
+    position:fixed;
+    bottom: 0;
+    width: 50%;
+    
+}
+
+.partThree {
+    display: none;
+}
+
+.head * {
+    padding: 10px !important;
+}
 
 html * {
      font-family: "Open Sans",open-sans,sans-serif;   
      color: #31117D;    
      font-size: 22px !important;
-     padding: 10px !important;
 }
+
+.listItem {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.mdc-toolbar__row {
+    min-height: 40px;
+    max-height: 60px;
+}
+
 
 .check {
     background-color:#31117D;    
+}
+
+.adjustedField {
+    min-width: 300px;
 }
 
 .button2 {

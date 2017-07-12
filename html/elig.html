@@ -27,7 +27,7 @@
 
 <body>
 
-    <header class="mdc-toolbar mdc-toolbar--fixed" style="margin-bottom: 150px;">
+    <header class="mdc-toolbar mdc-toolbar--fixed head" style="margin-bottom: 400px;">
         <div class="mdc-toolbar__row">
             <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
                 <span class="mdc-toolbar__title" id="title"> mPower </span>
@@ -50,7 +50,7 @@
         </div>
     </header>
 
-    <div class="container-fluid" style="margin-top: 150;">
+    <div class="container-fluid" style="margin-top: 150px; ">
         <div class="text-center">
             <div class="row">
                 <div class="col-md-12">
@@ -66,27 +66,27 @@
             <div class="row">
                 
 
-                <div class="col-xs-12 col-md-6" id="ageField" align="right">
-                    <div class="mdc-form-field mdc-form-field--align-end" style="border-style: none;" id="ageBorder">
-                        <input type="number" id="inputAge">
+                <div class="col-xs-12 col-md-6 " style="padding: 0px;" id="ageField" align="right">
+                    <div class="mdc-form-field mdc-form-field--align-end formField" id="ageBorder">
+                        <input style="min-width: 115px  !important;" type="tel" pattern="[0-9]*" id="inputAge" placeholder="enter age" >
                         <label style="min-width: 100px !important;"> I am </label>
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-md-6 partTwo" id="homeField" align="left" style="display: none;">
-                    <div class="mdc-form-field mdc-form-field--align-end" id="homeBorder" >
-                        <input type="text" id="inputLive" autocomplete="text">
+                <div class="col-xs-12 col-md-6 formField partTwo" style="display: none; padding: 0px;"  id="homeField" align="left" >
+                    <div class="mdc-form-field mdc-form-field--align-end " id="homeBorder" >
+                        <input  style="min-width: 150px  !important;" type="tel" pattern="[0-9]*" id="inputLive" autocomplete="text"  placeholder="zipcode or state">
                         <label style="min-width: 100px !important;"> I live in </label>
                     </div>
                 </div>
                 
 
-                    <div class="col-xs-12 col-md-2 col-md-push-3 partThree" id="optionBoxOne" style="min-width: 100px; display: none;">
+                    <div class="col-xs-4 col-md-2 col-md-push-3 formField partThree" id="optionBoxOne" style="min-width: 100px; ">
                         and I feel
                     </div>
 
-                    <div class="partThree col-md-9" style="display: none;">
-                        <div class="mdc-select partThree" id="optionBoxThree" role="listbox" style="min-width: 210px;">
+                    <div class="partThree col-xs-8 col-md-9">
+                        <div class="mdc-select partThree head" id="optionBoxThree" role="listbox" style="min-width: 210px;">
                                 <span class="mdc-select__selected-text"> select an option </span>
                                 <div class="mdc-simple-menu mdc-select__menu">
                                     <ul class="mdc-list mdc-simple-menu__items">
@@ -101,13 +101,11 @@
                                 </div>
                             </div>
 
-                        <div class="partThree" style="min-width: 210px; display: inline;">
-                            using my iphone
-                        </div>
-
                     </div>
 
-
+                <div class="col-xs-12 partThree" style="min-width: 150px;">
+                         using my mobile phone
+                </div>
 
                 </div>
         </div>
